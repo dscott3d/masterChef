@@ -20,6 +20,7 @@ def randomNewFunction(somethingIn):
     return (formatted_items)
 
 if __name__ == "__main__":
+    #print (bestFoods())
     output = bestFoods(FOODS)
     # print (output)
     sorted_output = randomNewFunction(output)
