@@ -8,6 +8,7 @@ FOODS = ["ice cream",
          "cheese"
          ]
 
+FOODS = FOODS[0]
 
 def bestFoods(FOODLIST):
     items = FOODLIST[::len(FOODLIST)-1]
@@ -19,6 +20,7 @@ def randomNewFunction(somethingIn):
     return (formatted_items)
 
 if __name__ == "__main__":
+    #print (bestFoods())
     output = bestFoods(FOODS)
     # print (output)
     sorted_output = randomNewFunction(output)
