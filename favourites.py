@@ -13,5 +13,3 @@ def bestFoods(passed_in_list_of_foods):
 if __name__ == "__main__":
     output = bestFoods(FOODS)
     print (output)
-
-testing
